@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Escbyimana Registration platform">
+    <meta name="author" content="Muhirwe Leo Constantin">
+
+    <!--bootstrap link-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+    <!--Bootstrap icon-->
+    <!-- Option 1:  Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>ESC BYIMANA | Register</title>
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="images/byimanalogo.png" type="image/x-icon">
+
+</head>
+<body class="vh-100 ">
+
+    <div class="spinner-wrapper text-light">
+        <div class="spinner-grow text-info" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>       
+    </div>
+
+        <!--Navbar-->
+
+        <nav class="navbar navbar-expand-lg  bg-white">
+            <div class="container">
+                <!--Logo-->
+                <div>
+                    <img src="images/byimanalogo.png" title="Byimana Logo" loading="lazy" class="ByimanaLogo">
+                    <a class="navbar-brand text-black" href="#" style="font-size: 22px;">
+                        ESC BYIMANA
+                    </a>
+                </div>
+                
+    
+                <!--toggler btn-->
+                <button 
+                class="navbar-toggler shadow-none "
+                style="background: transparent;
+                font-size: 18px;
+                border: none !important;
+                " 
+                type="button" 
+                data-bs-toggle="offcanvas" 
+                data-bs-target="#offcanvasNavbar" 
+                aria-controls="offcanvasNavbar" 
+                aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+    
+                <!--sidebar-->
+                <div class="sidebar offcanvas offcanvas-start" 
+                    tabindex="-1" 
+                    id="offcanvasNavbar" 
+                    aria-labelledby="offcanvasNavbarLabel"
+                >
+                <!--sidebar header-->
+                <div class="offcanvas-header text-white border-bottom">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"
+                style="font-size: 17px;">
+                    Ecole Des Science Byimana
+                </h5>
+                <button 
+                    type="button" 
+                    class="btn-close btn-close-black shadow-none" 
+                    data-bs-dismiss="offcanvas" 
+                    aria-label="Close"
+                ></button>
+                </div>
+    
+                <!--sidebar body-->
+                <div class="offcanvas-body d-flex 
+                flex-column flex-lg-row p-4 p-lg-0">
+                <ul class="navbar-nav justify-content-center 
+                align-items-center fs-5 flex-grow-1 pe-3">
+                    <li class="nav-item mx-2">
+                    <a class="nav-link active" style="color: rgba(46, 46, 229, 0.762);" aria-current="page" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                    <a class="nav-link" href="check.php">Student</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="admin.php">Adminstration</a>
+                    </li>
+                    <li class="nav-item mx-2">
+    
+                        <button 
+                            class="btn btn-white btn-sm nav-button" 
+                            data-bs-toggle="modal"
+                            data-bs-target="#enroll"
+                            >
+                            <span class="nav-button-span">Contact us</span>
+                        </button>
+                        
+                    </li>
+                
+                </ul>
+                <div class="d-flex flex- flex-lg-row align-items-center justify-content-center gap-3">
+                    <a href="https://escbyimana.co.rw/Aboutus.html" class="text-black about" style="font-family: Poor Richard;">About us</a>
+                    <a href="https://escbyimana.co.rw/" class="text-black text-decoration-none
+                    px-3 py-1 rounded-2 about" style="background-color: rgba(172, 171, 171, 0.276); font-family: Poor Richard;">visit</a>
+                </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+
+        <!--main-->
+        <main style="background: url('images/DSC_0368.jpg') rgba(0, 0, 0, 0.596);">
+            <!-- background: url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat;
+} -->
+            <section class="w-100 vh-100 d-flex flex-column
+            justify-content-center align-items-center text-white fs-1">
+
+            <h1 class="text-uppercase" style="font-size: 1.1rem;font-style: Poor Richard;">Best Way To Register In</h1>
+            <h1 class="m-3 escbyimana" style="font-size: 2.4rem;">
+                <span id="element"></span>
+                <!-- 𝐸𝒞𝑜𝓁𝑒 𝒹𝑒𝓈 𝒮𝒸𝒾𝑒𝓃𝒸𝑒 𝐵𝓎𝒾𝓂𝒶𝓃𝒶 -->
+            </h1>
+            <h3 class="mt-2 consience">Conscience — Science — Excellence</h3>
+            
+            </section>
+
+        </main>
+
+        <!--boxes-->
+        <section class="px-1 py-3 mt-5 mb-5 boxvis">
+                <div class="container box">
+                    <div class="row text-center g-4">
+
+                        <div class="col-lg-6 col-md-6 mb-5">
+                            <div class="card text-light card1">
+                                
+                                <div class="card-body text-center">
+
+                                    <div class="cardPar1">
+                                        <div class="h1">
+                                        <img src="images/target.png" alt="" class="missimg">
+                                        </div>
+
+                                        <h3 class="card-title">
+                                        Our Mission
+                                        </h3>                                        
+                                    </div>
+
+
+                                    <div class="card-text cardp1">
+                                        <p class="text-start m-2">
+                                            "Providing Inclusive and wholistic education grounded 
+                                            in Christian values, enabling our students to be good 
+                                            Christians and citizens"                                            
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 mb-5">
+                            <div class="card text-light card2">
+                                <div class="card-body text-center">
+                                    <div class="cardPar1">
+                                        <div class="h1">
+                                            <img src="images/vision.png" alt="" class="visimg">
+                                        </div>
+
+                                        <h3 class="card-title">
+                                            Vision
+                                        </h3>                                        
+                                    </div>
+
+                                    <div class="card-text cardp2">
+                                        <p class="text-start m-2">
+                                            ESc Byimana is commited to being a center of 
+                                            excellence and reference in science formation of young Rwandans.                                           
+                                        </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-12">
+                            <div class="card text-light card3">
+                                <div class="card-body text-center">
+                                    <div class="cardPar1">
+                                        <div class="h1">
+                                            <img src="images/medal.png" alt="" class="goldimg">
+                                            <img src="images/coin.png" alt="" class="goldimg">
+                                        </div>
+
+                                        <h3 class="card-title">
+                                            Golden Rule
+                                        </h3>                                        
+                                    </div>
+
+                                    <div class="card-text cardp3">
+                                        <p class="text-start m-2">
+                                            Be at the Right Place at the Right 
+                                        Time doing the right Thing with the right Person.                                           
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6 col-md-12">
+                            <div class="card text-light card4">
+                                <div class="card-body text-center">
+                                    <div class="cardPar1">
+                                        <div class="h1">
+                                            <img src="images/opportunity.png" alt="" class="valimg">
+                                        </div>
+
+                                        <h3 class="card-title">
+                                            Core Values
+                                        </h3>                                        
+                                    </div>
+
+                                    <div class="card-text cardp4">
+                                        <p class="text-start m-2">
+                                            . Patriotism-Accountability,<br>. Smartness-safety-Hardworking,<br>. 
+                                            Simplicity-Love of God and Neighbor,<br>. Family spirit and Presence 
+                                            in the way of Mary.                                           
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+        </section>
+
+        <!--footer-->
+        <footer class="text-white pt-5 pb-4 position-relative">
+            <div class="container text-center text-md-left">
+                <div class="row text-center text-md-left">
+                    
+                    <div class="col-lg-3 col-sm-6 col-xs-6 mx-auto text-sm-start mt-3">
+                        <h5 class="text-uppercase mb-3 text-white fw-bold text-sm-start hfoot">
+                            Esc Byimana
+                        </h5>
+                        <p class="fotrprag">
+                            "Providing inclusive and wholistic education grounded
+                            in christian values enabling our student to be good
+                            christians and good citizens"
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 col-xs-6 col-md-push-1  text-sm-start mt-3">
+                        <h5 class="text-uppercase mb-3 text-white fw-bold text-sm-start hfoot">
+                            QUICK LINKS
+                        </h5>
+
+                        <ul class="footer-links list-unstyled">
+                        <li>
+                            <a href="index.php" class="link" style="text-decoration: none;">Home</a>
+                        </li>
+                        <li>
+                            <a href="student.php" class="link" style="text-decoration: none;">Student</a>
+                        </li>
+                        <li>
+                            <a href="admin.php" class="link" style="text-decoration: none;">Administration</a>
+                        </li>
+                        <li>
+                            <a href="https://escbyimana.co.rw/Aboutus.html" class="link" style="text-decoration: none;">About</a>
+                        </li>
+                        </ul>
+
+                    </div>
+    
+                    <div class="col-lg-3 col-sm-6 col-xs-6 col-md-push-1 text-sm-start mt-3">
+                        <h5 class="text-uppercase mb-3 text-white fw-bold hfoot">
+                            Contacts
+                        </h5>
+                        <ul class="list-unstyled">
+                            <li class="list-item">
+                                <a href="https://twitter.com/EscByimana" target="_blank"  
+                                class="btn-floating btn-sm text-decoration-none link"
+                                ><i class="bi bi-twitter"></i>@EscByimana</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="https://rw.linkedin.com/in/ecole-byimana-337a09167" target="_blank" 
+                                class="btn-floating btn-sm text-decoration-none link"
+                                ><i class="bi bi-linkedin"></i>Ecole Byimana</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="#" target="_blank" 
+                                class="btn-floating btn-sm text-decoration-none link"
+                                ><i class="bi bi-google"></i>escbyimana@gmail.com</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.youtube.com/channel/UCkQNI83wTS5zKyK62lcjKgA" target="_blank" 
+                                class="btn-floating btn-sm text-decoration-none link"
+                                ><i class="bi bi-youtube"></i>ESC Byimana</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+
+                    <div class="col-lg-3 col-sm-6 col-xs-6 col-md-push-1 text-sm-start mt-3">
+                        <h5 class="text-uppercase mb-3 text-white fw-bold hfoot">
+                            OPEN HOURS
+                        </h5>
+                        <div>
+                            <p class="link">
+                                Our support available to help you 24 hours a day, seven days a week.
+                            </p>
+                        </div>
+                        <ul class="footer-links list-unstyled">
+                            <li class="link">
+                                Monday-Friday: <span>8am to 5pm</span>
+                            </li>
+                            <li class="link">
+                                Saturday: <span>10am to 3pm</span>
+                            </li>
+                            <li class="link">
+                                Sunday: <span>Closed</span>
+                            </li>
+                        </ul>
+                        
+
+                    </div>
+                
+                <hr class="mb-4 mt-4">
+
+                <div class="align-items-center">
+                    <div class="col-lg-md-12">
+                        <p>Copyright &copy; 2025 Ecole Des Science Byimana All Rights Reserved.
+                            <a href="#" class="position-fixed bottom-0 end-0  text-warning">
+                                <i class="bi bi-airplane-engines h1 arrow"></i>
+                            </a>
+                        </p>
+                    </div>
+
+                </div>
+                <div class="align-items-center p-5">
+                    <!-- <p>Designed BY</p>
+                    <img src="images/logo(1).png" alt="" class="mark"> -->
+                </div>
+            </div>
+        </footer>
+
+        <!-- modal for contact us button -->
+
+        <div class="modal fade" 
+            id="enroll" 
+            tabindex="-1" 
+            aria-labelledby="enrollLabel" 
+            aria-hidden="true">
+
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title text-white" 
+                        id="enrollLabel">Contact us</h5>
+                        <button type="button" 
+                        class="btn-close btn-close-white" 
+                        data-bs-dismiss="modal" 
+                        aria-label="Close"
+                        ></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <p class="lead text-white">
+                            Please Fill Out This Form To contact Us
+                        </p>
+                        <form action="">
+
+
+                            <div class="input-group mb-2 mt-4">
+                                <span class="input-group-text">First and last name</span>
+                                <input type="text" aria-label="First name" class="form-control">
+                                <input type="text" aria-label="Last name" class="form-control">
+                            </div>
+
+                            <div class="form-floating mb-2">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email address</label>
+                            </div>
+
+                            <div class="form-floating mb-2">
+                                <input type="tel" class="form-control" id="floatingInput" placeholder="Enter Your Phone Number:" pattern="[0-9]" maxlength="10" minlength="10">
+                                <label for="floatingInput">Telphone No</label>
+                            </div>
+
+                            <div class="form-floating mb-4">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 200px"></textarea>
+                                <label for="floatingTextarea2">Comments/Question</label>
+                            </div>
+
+                        </form>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" 
+                        class="btn btn-secondary" 
+                        data-bs-dismiss="modal"
+                        >Close</button>
+                        <button type="button" class="btn btn-warning text-white">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    <!-- Jva Script -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+
+
+        <!-- auto typing  -->
+        <script src="js/typed.umd.js"></script>
+        <script>
+
+            var typed = new Typed('#element', {
+            strings: [
+                'Welcome In',
+                ' ',
+                '𝐸𝒞𝑜𝓁𝑒 𝒹𝑒𝓈 𝒮𝒸𝒾𝑒𝓃𝒸𝑒 𝐵𝓎𝒾𝓂𝒶𝓃𝒶',
+                ' ',
+                'Marist School',
+                ' '
+                    ],
+                typeSpeed: 300,
+                backSpeed: 100,
+                loop: true,
+            });
+       
+        </script>
+        
+    
+</body>
+</html>
